@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'forms';
+  data:any={}
+  userLogin(item:any)
+  {
+    this.data=item
+  }
 }
